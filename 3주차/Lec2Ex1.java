@@ -17,6 +17,7 @@ public class Lec2Ex1 {
 		else {
 			System.out.print("두 수는 같습니다.");
 		}
+		input.close();
 	}
 
 }

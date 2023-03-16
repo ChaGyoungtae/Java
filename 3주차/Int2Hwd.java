@@ -12,8 +12,19 @@ public class Int2Hwd {
 		switch (x) {
 			
 			case 0:
-				
+				System.out.print("없음");
+				break;
+			case 1:
+				System.out.print("하나");
+				break;
+			case 2:
+				System.out.print("둘");
+				break;
+			default:
+				System.out.print("많음");
+				break;
 		}
+		input.close();
 	}
 
 }

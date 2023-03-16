@@ -15,6 +15,7 @@ public class EvenOdd {
 			System.out.printf("입력된 정수는 홀수입니다.\n");
 		}
 		System.out.print("프로그램이 종료되었습니다.");
+		input.close();
 	}
 
 }

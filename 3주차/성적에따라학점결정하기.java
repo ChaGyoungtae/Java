@@ -11,6 +11,7 @@ public class 성적에따라학점결정하기 {
 		if(rec >= 90) System.out.print("A");
 		else if(rec >= 80) System.out.print("B");
 		else if(rec >= 70) System.out.print("C");
+		
+		input.close();
 	}
-
 }
