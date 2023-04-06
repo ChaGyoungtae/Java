@@ -10,7 +10,9 @@ public class LeapYear {
 		int year = input.nextInt();					// 연도 입력
 		b = (year % 4 == 0);						// 입력한 값이 4의배수면 true, 아니면 false가 b에 대입된다.
 		
-		System.out.println(b);						// 값 출력
+		System.out.println(b);// 값 출력
+		
+		input.close();
 	}
 
 }

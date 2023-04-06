@@ -1,0 +1,13 @@
+package helloJava;
+
+public class BoxTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Box obj1 = new Box(10,20,50); //박스 생성
+		Box obj2 = new Box(10,20,50);
+		
+		System.out.println("obj1 == obj2 : " + obj1.isSameBox(obj2));
+	}
+
+}

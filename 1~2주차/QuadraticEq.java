@@ -1,4 +1,5 @@
 import java.util.Scanner; // Scanner 클래스 포함
+
 public class QuadraticEq {
 
 	public static void main(String[] args) {
@@ -12,7 +13,8 @@ public class QuadraticEq {
 		float result1 = (float)((b*-1) + Math.sqrt(b*b - 4*a*c)) / (2*a);	// Math.sqrt를 이용해 두 근 구하기
 		float result2 = (float)(((b*-1) - Math.sqrt(b*b - 4*a*c)) / (2*a));
 		
-		System.out.println(result1+","+result2);							// 두 근 출력
+		System.out.println(result1+","+result2); // 두 근 출력
+		input.close();
 	}
 
 }

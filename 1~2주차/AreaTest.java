@@ -12,6 +12,8 @@ public class AreaTest {
 		
 		double circle = radius * radius * PI;
 		System.out.println("반지름이 "+radius+"인 원의 면적은 "+circle+"입니다.");	// 원의 면적값 출력
+		
+		input.close();
 	}
-
+	
 }
