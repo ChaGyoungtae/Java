@@ -1,16 +1,14 @@
 package helloJava;
 
 public class Television {
-	int channel;
-	int volume;
-	boolean onOff;
+	public int channel;
+	public int volume;
+	public boolean onOff;
+	public static int count = 0;
 
 	
 	public Television (int c) {
-		this(c,10
-				
-				
-				,true);
+		this(c,10,true);
 	}
 	
 	public Television (int c, int v) {
@@ -21,6 +19,7 @@ public class Television {
 		this.channel = c;
 		this.volume = v;
 		this.onOff = o;
+		count++;
 	}
 	
 	void print() {

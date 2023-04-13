@@ -10,5 +10,6 @@
 	<classpathentry kind="src" path="1~2주차"/>
 	<classpathentry kind="src" path="4주차"/>
 	<classpathentry kind="src" path="5주차"/>
+	<classpathentry kind="src" path="6주차"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
